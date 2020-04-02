@@ -1,0 +1,238 @@
+body {
+	margin: 40px 0 0 0;
+	padding: 0px;
+	background-color: #0E1B24;
+	font-family: Calibri, sans-serif;
+	font-size: large;
+}
+
+main {
+	padding: 20px 20px 0 20px;
+}
+
+.center-body {
+	background-color: white;
+	margin: 0 auto;
+	padding: 0px;
+	width: 800px;
+}
+
+.col-float {
+	float: left;
+}
+
+.col-float-right {
+	float: right;
+}
+
+.col-clear {
+	clear: both;
+}
+
+.header {
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 800px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	margin: 0px auto;
+	height: 70px;
+	background-color: #1C415E;
+	z-index: 1;
+}
+
+.page-title {
+	margin: 10px 20px;
+	font-size: xx-large;
+	float: left;
+	color: #E0DB41;
+	text-decoration: none;
+	font-family: 'Merienda One', cursive;
+}
+
+div.lang a {
+	position: relative;
+	top: 17px;
+	text-decoration: none;
+	background-color: #E0DB41;
+	color: #1C415E;
+	padding: 5px;
+	margin: 0 20px;
+	border-radius: 5px;
+}
+
+div.lang a:hover {
+	background-color: #e0c041;
+}
+
+div.lang a:active {
+	background-color: #e0a641;
+}
+
+/* Navigation */
+
+nav ul.nav-horizontal {
+	margin: 5px 10px;
+}
+
+nav ul.nav-horizontal li {
+	display: inline;
+}
+
+nav ul.nav-horizontal li a{
+	font-size: x-large;
+	margin: 0 10px 0 0;
+	padding: 20px 10px 10px 10px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #E0DB41;
+	color: #1C415E;
+	text-decoration: none;
+}
+
+nav ul.nav-horizontal li a:hover {
+	background-color: #e0c041;
+}
+
+nav ul.nav-horizontal li a:active {
+	background-color: #e0a641;
+}
+
+/* Contacts */
+
+.contacts {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contacts li {
+	margin: 10px 0 0 0;
+}
+
+.contacts li img {
+	height: 30px;
+	width: auto;
+	border-radius: 50%;
+	margin-bottom: 0.25em;
+	vertical-align: middle;
+}
+
+.contacts li a {
+	font-size: x-large;
+	text-decoration: none;
+	color: black;
+}
+
+.contacts li a:hover {
+	color: #1C415E;
+}
+
+/* Sections */
+
+div.section {
+	margin: 20px;
+}
+
+h2.section-header {
+	width: auto;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+	top: 20px;
+	margin: 0 0 40px 0;
+	border-radius: 25px;
+	color: #E0DB41;
+	background-color: #1C415E;
+	font-size: x-large;
+	font-weight: normal;
+}
+
+.summary {
+	-font-size: x-large;
+	width: 400px;
+	margin: 30px 0 0 50px;
+}
+
+.summary h1 {
+	font-size: xx-large;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+}
+
+.main-foto {
+	height: 270px;
+	width: auto;
+	border-radius: 10%;
+}
+
+/* Skills section */
+
+#skills ul {
+	margin: 0;
+	padding: 0;
+}
+
+#skills li {
+	margin: 5px 0;
+	list-style: none;
+}
+
+#skills li img {
+	height: 20px;
+	width: auto;
+	vertical-align: center;
+	margin: 0 15px 0 0;
+}
+
+#skills span.others {
+	display: block;
+	margin: 20px 0 0 0;
+}
+
+/* Experience section*/
+
+#experience table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#experience th {
+	text-align: left;
+}
+
+#experience tr {
+	border-bottom: 2px solid black;
+	height: 40px;
+}
+
+#experience td a {
+	color: black;
+	text-decoration: none;
+}
+
+#experience td a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/* Education section */
+
+#educations div h3 {
+	font-weight: normal;
+	margin: 0px;
+}
+
+#educations div span.property-name {
+	font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+	height: 40px;
+	background-color: #1C415E;
+	padding:  10px 40px;
+}
