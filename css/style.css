@@ -7,7 +7,7 @@ body {
 }
 
 main {
-	padding: 20px 20px 0 20px;
+	padding: 20px 0 0 0;
 }
 
 .center-body {
@@ -35,8 +35,6 @@ main {
 	left: 50%;
 	transform: translateX(-50%);
 	width: 800px;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
 	margin: 0px auto;
 	height: 70px;
 	background-color: #1C415E;
@@ -44,31 +42,32 @@ main {
 }
 
 .page-title {
-	margin: 10px 20px;
+	margin: 15px 20px;
 	font-size: xx-large;
 	float: left;
 	color: #E0DB41;
 	text-decoration: none;
-	font-family: 'Merienda One', cursive;
+}
+
+div.lang {
+	position: relative;
+	top: 5px;
+	padding: 5px;
+	margin: 0 15px 0 0;
+	color: #E0DB41;
 }
 
 div.lang a {
-	position: relative;
-	top: 17px;
 	text-decoration: none;
-	background-color: #E0DB41;
-	color: #1C415E;
-	padding: 5px;
-	margin: 0 20px;
-	border-radius: 5px;
+	color: #E0DB41;
 }
 
 div.lang a:hover {
-	background-color: #e0c041;
+	color: #e0c041;
 }
 
 div.lang a:active {
-	background-color: #e0a641;
+	color: #e0a641;
 }
 
 /* Navigation */
@@ -84,9 +83,8 @@ nav ul.nav-horizontal li {
 nav ul.nav-horizontal li a{
 	font-size: x-large;
 	margin: 0 10px 0 0;
-	padding: 20px 10px 10px 10px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+	padding: 5px;
+	border-bottom-right-radius: 10px;
 	background-color: #E0DB41;
 	color: #1C415E;
 	text-decoration: none;
@@ -121,7 +119,7 @@ nav ul.nav-horizontal li a:active {
 }
 
 .contacts li a {
-	font-size: x-large;
+	-font-size: x-large;
 	text-decoration: none;
 	color: black;
 }
@@ -133,7 +131,7 @@ nav ul.nav-horizontal li a:active {
 /* Sections */
 
 div.section {
-	margin: 20px;
+	margin: 20px 40px;
 }
 
 h2.section-header {
@@ -143,15 +141,20 @@ h2.section-header {
 	position: relative;
 	top: 20px;
 	margin: 0 0 40px 0;
-	border-radius: 25px;
+	-border-radius: 25px;
 	color: #E0DB41;
 	background-color: #1C415E;
 	font-size: x-large;
 	font-weight: normal;
 }
 
+/* Summury section */
+
+#summary {
+	margin: 0 40px;
+}
+
 .summary {
-	-font-size: x-large;
 	width: 400px;
 	margin: 30px 0 0 50px;
 }
@@ -209,13 +212,14 @@ h2.section-header {
 }
 
 #experience td a {
-	color: black;
-	text-decoration: none;
+	font-style: italic;
+	color: #1C415E;
+	text-decoration: underline;
 }
 
 #experience td a:hover {
-	color: red;
-	text-decoration: underline;
+	-color: red;
+	text-decoration: none;
 }
 
 /* Education section */
